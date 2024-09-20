@@ -1,0 +1,20 @@
+.input-text {
+  --mdc-outlined-text-field-focus-outline-color: #6e54b5;
+  --mdc-outlined-text-field-hover-label-text-color: #ffffffb4;
+  --mdc-outlined-text-field-input-text-placeholder-color: #ffffff7c;
+  --mdc-outlined-text-field-input-text-color: #ffffffb4;
+  --mdc-outlined-text-field-hover-outline-color: #6e54b5;
+  --mdc-outlined-text-field-focus-label-text-color: #6e54b5;
+  --mdc-outlined-text-field-outline-color: #ffffff13;
+  --mdc-outlined-text-field-label-text-color: #ffffff6b;
+  --mdc-outlined-text-field-outline-width: 2px;
+
+  width: 100%;
+
+  &::ng-deep {
+    .mdc-notched-outline {
+      background-color: #ffffff13;
+      border-radius: 5px;
+    }
+  }
+}

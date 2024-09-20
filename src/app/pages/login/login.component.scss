@@ -1,0 +1,63 @@
+.login-content {
+  display: flex;
+  width: 60vw;
+  height: 75vh;
+  background-color: #2b2738;
+  padding: 1rem;
+  gap: 1rem;
+  border-radius: 15px;
+  box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.28);
+
+  &__left {
+    width: 50%;
+    height: 100%;
+    background-image: url("https://png.pngtree.com/background/20231222/original/pngtree-futuristic-ai-concept-with-a-3d-rendered-cyborg-or-robot-featuring-picture-image_6937771.jpg");
+    border-radius: 15px;
+  }
+  &__right {
+    display: flex;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 50%;
+    height: 100%;
+    border-radius: 15px;
+
+    &__already {
+      font-weight: 200;
+    }
+
+    &__form {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      width: 25vw;
+      flex-direction: column;
+
+      &__name {
+        display: flex;
+        width: 100%;
+        gap: 1rem;
+
+        * {
+          width: 50%;
+        }
+      }
+
+      &__field {
+        display: flex;
+        width: 100%;
+      }
+    }
+  }
+}
+
+.login-container {
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  background-color: #676279;
+  justify-content: center;
+  align-items: center;
+}

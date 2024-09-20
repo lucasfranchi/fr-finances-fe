@@ -1,0 +1,8 @@
+<mat-form-field
+  class="input-text"
+  appearance="outline"
+  [floatLabel]="floatLabel"
+>
+  <mat-label **ngIf="label">{{ label }}</mat-label>
+  <input matInput [placeholder]="placeholder" [value]="value" [type]="type"/>
+</mat-form-field>

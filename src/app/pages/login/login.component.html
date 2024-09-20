@@ -1,0 +1,39 @@
+<div class="login-container">
+  <div class="login-content">
+    <div class="login-content__left"></div>
+    <div class="login-content__right">
+      <form [formGroup]="formGroup" class="login-content__right__form">
+        <h1 class="mb-4">Create an account</h1>
+        <p class="mb-5 login-content__right__already">
+          Already have an account? <a href="/login">Log in</a>
+        </p>
+        <div class="login-content__right__form__name">
+          <fr-input-text
+            placeholder="First name"
+            formControlName="firstName"
+          ></fr-input-text>
+          <fr-input-text
+            placeholder="Last name"
+            formControlName="lastName"
+          ></fr-input-text>
+        </div>
+        <fr-input-text
+          placeholder="Email"
+          formControlName="email"
+          type="email"
+          class="login-content__right__form__field"
+        ></fr-input-text>
+        <fr-input-text
+          placeholder="Password"
+          formControlName="password"
+          type="password"
+          class="login-content__right__form__field"
+        ></fr-input-text>
+        <fr-checkbox
+          >I agree to the <a href="">Terms & conditions</a></fr-checkbox
+        >
+        <fr-button class="w-100 mt-5">Create account</fr-button>
+      </form>
+    </div>
+  </div>
+</div>
